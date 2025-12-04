@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Container,
   Typography,
@@ -9,7 +9,6 @@ import {
   ThemeProvider,
   createTheme,
   CssBaseline,
-  Paper
 } from '@mui/material';
 import RepoList from './components/RepoList';
 import ReleaseNotes from './components/ReleaseNotes';
